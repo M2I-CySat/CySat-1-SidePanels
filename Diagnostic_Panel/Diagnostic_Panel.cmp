@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/16/2013 11:02:37 PM
+
+BeginCmp
+TimeStamp = /5085A1F7;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = DFN1006;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7641F5;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = CONN_JST_2_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5070913D;
+Reference = S1;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50709142;
+Reference = S2;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5070912E;
+Reference = S3;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50709134;
+Reference = S4;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5070911F;
+Reference = S5;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50709127;
+Reference = S6;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5070910A;
+Reference = S7;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5070911B;
+Reference = S8;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50709104;
+Reference = S9;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50709111;
+Reference = S10;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5070A241;
+Reference = S11;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5070A248;
+Reference = S12;
+ValeurCmp = SOLARCELL;
+IdModule  = TASC2;
+EndCmp
+
+EndListe

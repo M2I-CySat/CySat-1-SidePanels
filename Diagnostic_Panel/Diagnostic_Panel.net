@@ -1,0 +1,67 @@
+# EESchema Netlist Version 1.1 created  10/22/2012 2:44:20 PM
+(
+ ( /5085A1F7 DFN1006 D1 DIODE
+  ( 1 /Plus )
+  ( 2 N-000003 )
+ )
+ ( /4F7641F5 CONN_JST_2_SMD P1 CONN_2
+  ( 1 /Minus )
+  ( 2 N-000003 )
+ )
+ ( /5070913D TASC1 S1 SOLARCELL
+  ( 1 N-000001 )
+  ( 2 /Minus )
+ )
+ ( /50709142 TASC1 S2 SOLARCELL
+  ( 1 /Plus )
+  ( 2 N-000001 )
+ )
+ ( /5070912E TASC1 S3 SOLARCELL
+  ( 1 N-000009 )
+  ( 2 /Minus )
+ )
+ ( /50709134 TASC1 S4 SOLARCELL
+  ( 1 /Plus )
+  ( 2 N-000009 )
+ )
+ ( /5070911F TASC1 S5 SOLARCELL
+  ( 1 N-000008 )
+  ( 2 /Minus )
+ )
+ ( /50709127 TASC1 S6 SOLARCELL
+  ( 1 /Plus )
+  ( 2 N-000008 )
+ )
+ ( /5070910A TASC1 S7 SOLARCELL
+  ( 1 N-000005 )
+  ( 2 /Minus )
+ )
+ ( /5070911B TASC1 S8 SOLARCELL
+  ( 1 /Plus )
+  ( 2 N-000005 )
+ )
+ ( /50709104 TASC1 S9 SOLARCELL
+  ( 1 N-000006 )
+  ( 2 /Minus )
+ )
+ ( /50709111 TASC1 S10 SOLARCELL
+  ( 1 /Plus )
+  ( 2 N-000006 )
+ )
+ ( /5070A241 TASC1 S11 SOLARCELL
+  ( 1 N-000002 )
+  ( 2 /Minus )
+ )
+ ( /5070A248 TASC1 S12 SOLARCELL
+  ( 1 /Plus )
+  ( 2 N-000002 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
