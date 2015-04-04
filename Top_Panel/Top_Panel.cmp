@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by PcbNew date = Sun 22 Dec 2013 12:11:23 AM CST
+
+BeginCmp
+TimeStamp = /508C21AE;
+Reference = BAL1;
+ValeurCmp = ATB2012;
+IdModule  = ATB2012;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085A062;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = DFN1006;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7622C7;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = CONN_JST_2_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /508C2011;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /508C2014;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /508C201B;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /508C201D;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /508CBD41;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /508CBD3D;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /508CBDE5;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B715E;
+Reference = S1;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B7163;
+Reference = S2;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B7147;
+Reference = S3;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B7159;
+Reference = S4;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B713B;
+Reference = S5;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B7142;
+Reference = S6;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B712C;
+Reference = S7;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B7135;
+Reference = S8;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50706E46;
+Reference = S9;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50706E4F;
+Reference = S10;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B71BB;
+Reference = S11;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+BeginCmp
+TimeStamp = /507B71E3;
+Reference = S12;
+ValeurCmp = SOLARCELL;
+IdModule  = SPECTROLAB_TASC2;
+EndCmp
+
+EndListe
