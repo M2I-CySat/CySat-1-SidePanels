@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MLZ2012N6R8LT000
+#
+DEF MLZ2012N6R8LT000 L 0 40 Y N 1 L N
+F0 "L" -200 75 50 H V L BNN
+F1 "MLZ2012N6R8LT000" -201 -100 50 H V L BNN
+F2 "INDC2012X125" 0 0 50 H I L BNN
+F3 "https://www.digikey.com/product-detail/en/tdk-corporation/MLZ2012N6R8LT000/445-6761-1-ND/2523582?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F4 "MLZ2012N6R8LT000" 0 0 50 H I L BNN
+F5 "0805 TDK" 0 0 50 H I L BNN
+F6 "Inductor Power Shielded Multi-Layer 6.8uH 20% 2MHz Ferrite 550mA 325mOhm DCR 0805 T/R" 0 0 50 H I L BNN
+F7 "445-6761-1-ND" 0 0 50 H I L BNN
+F8 "TDK" 0 0 50 H I L BNN
+DRAW
+A -75 2 25 1740 60 0 0 6 N -100 0 -50 0
+A -25 2 25 1740 60 0 0 6 N -50 0 0 0
+A 75 2 25 1740 60 0 0 6 N 50 0 100 0
+A 25 2 25 1740 60 0 0 6 N 0 0 50 0
+X 2 2 300 0 200 L 40 40 0 0 P 
+X 1 1 -300 0 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
