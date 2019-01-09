@@ -1,0 +1,142 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Solar_Cell SC3
+U 1 1 5C3524F3
+P 6350 3900
+F 0 "SC3" H 6458 3996 50  0000 L CNN
+F 1 "Solar_Cell" H 6458 3905 50  0000 L CNN
+F 2 "SolarPanelKicad:ISS_SolarCell" V 6350 3960 50  0001 C CNN
+F 3 "~" V 6350 3960 50  0001 C CNN
+	1    6350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC2
+U 1 1 5C352522
+P 5800 3900
+F 0 "SC2" H 5908 3996 50  0000 L CNN
+F 1 "Solar_Cell" H 5908 3905 50  0000 L CNN
+F 2 "SolarPanelKicad:ISS_SolarCell" V 5800 3960 50  0001 C CNN
+F 3 "~" V 5800 3960 50  0001 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC1
+U 1 1 5C35256A
+P 5200 3900
+F 0 "SC1" H 5308 3996 50  0000 L CNN
+F 1 "Solar_Cell" H 5308 3905 50  0000 L CNN
+F 2 "SolarPanelKicad:ISS_SolarCell" V 5200 3960 50  0001 C CNN
+F 3 "~" V 5200 3960 50  0001 C CNN
+	1    5200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3700 5800 3700
+Connection ~ 5800 3700
+Wire Wire Line
+	5800 3700 5500 3700
+Wire Wire Line
+	6350 4000 6100 4000
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 5200 4000
+$Comp
+L power:VCC #PWR05
+U 1 1 5C35261F
+P 5500 3700
+F 0 "#PWR05" H 5500 3550 50  0001 C CNN
+F 1 "VCC" H 5517 3873 50  0000 C CNN
+F 2 "" H 5500 3700 50  0001 C CNN
+F 3 "" H 5500 3700 50  0001 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3700
+Wire Wire Line
+	5500 3700 5200 3700
+$Comp
+L power:VSS #PWR06
+U 1 1 5C35268B
+P 6100 4000
+F 0 "#PWR06" H 6100 3850 50  0001 C CNN
+F 1 "VSS" H 6118 4173 50  0000 C CNN
+F 2 "" H 6100 4000 50  0001 C CNN
+F 3 "" H 6100 4000 50  0001 C CNN
+	1    6100 4000
+	-1   0    0    1   
+$EndComp
+Connection ~ 6100 4000
+Wire Wire Line
+	6100 4000 5800 4000
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5C3527D8
+P 2950 3800
+F 0 "J1" H 2870 3375 50  0000 C CNN
+F 1 "Conn_01x04" H 2870 3466 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53398-0471_04x1.25mm_Straight" H 2950 3800 50  0001 C CNN
+F 3 "~" H 2950 3800 50  0001 C CNN
+	1    2950 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VSS #PWR04
+U 1 1 5C35286D
+P 3150 3900
+F 0 "#PWR04" H 3150 3750 50  0001 C CNN
+F 1 "VSS" V 3167 4028 50  0000 L CNN
+F 2 "" H 3150 3900 50  0001 C CNN
+F 3 "" H 3150 3900 50  0001 C CNN
+	1    3150 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VSS #PWR03
+U 1 1 5C35289F
+P 3150 3800
+F 0 "#PWR03" H 3150 3650 50  0001 C CNN
+F 1 "VSS" V 3167 3928 50  0000 L CNN
+F 2 "" H 3150 3800 50  0001 C CNN
+F 3 "" H 3150 3800 50  0001 C CNN
+	1    3150 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5C352910
+P 3150 3700
+F 0 "#PWR02" H 3150 3550 50  0001 C CNN
+F 1 "VCC" V 3167 3828 50  0000 L CNN
+F 2 "" H 3150 3700 50  0001 C CNN
+F 3 "" H 3150 3700 50  0001 C CNN
+	1    3150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5C352981
+P 3150 3600
+F 0 "#PWR01" H 3150 3450 50  0001 C CNN
+F 1 "VCC" V 3167 3728 50  0000 L CNN
+F 2 "" H 3150 3600 50  0001 C CNN
+F 3 "" H 3150 3600 50  0001 C CNN
+	1    3150 3600
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
