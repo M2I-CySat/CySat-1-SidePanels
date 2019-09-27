@@ -158,7 +158,7 @@ U 1 1 5CB07D0B
 P 10500 3050
 F 0 "SC17" H 10608 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 10608 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 10500 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 10500 3110 50  0001 C CNN
 F 3 "~" V 10500 3110 50  0001 C CNN
 	1    10500 3050
 	1    0    0    -1  
@@ -169,7 +169,7 @@ U 1 1 5CB07D01
 P 9850 3050
 F 0 "SC16" H 9958 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 9958 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 9850 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 9850 3110 50  0001 C CNN
 F 3 "~" V 9850 3110 50  0001 C CNN
 	1    9850 3050
 	1    0    0    -1  
@@ -180,7 +180,7 @@ U 1 1 5CB07CF7
 P 9200 3050
 F 0 "SC15" H 9308 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 9308 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 9200 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 9200 3110 50  0001 C CNN
 F 3 "~" V 9200 3110 50  0001 C CNN
 	1    9200 3050
 	1    0    0    -1  
@@ -191,7 +191,7 @@ U 1 1 5CB07CED
 P 8550 3050
 F 0 "SC14" H 8658 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 8658 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 8550 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 8550 3110 50  0001 C CNN
 F 3 "~" V 8550 3110 50  0001 C CNN
 	1    8550 3050
 	1    0    0    -1  
@@ -202,7 +202,7 @@ U 1 1 5CB07CE3
 P 7950 3050
 F 0 "SC13" H 8058 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 8058 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 7950 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7950 3110 50  0001 C CNN
 F 3 "~" V 7950 3110 50  0001 C CNN
 	1    7950 3050
 	1    0    0    -1  
@@ -213,7 +213,7 @@ U 1 1 5CB07CD9
 P 7300 3050
 F 0 "SC12" H 7408 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 7408 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 7300 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7300 3110 50  0001 C CNN
 F 3 "~" V 7300 3110 50  0001 C CNN
 	1    7300 3050
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 5CB07CCF
 P 6650 3050
 F 0 "SC11" H 6758 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 6758 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 6650 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 6650 3110 50  0001 C CNN
 F 3 "~" V 6650 3110 50  0001 C CNN
 	1    6650 3050
 	1    0    0    -1  
@@ -235,7 +235,7 @@ U 1 1 5CB07CC5
 P 6000 3050
 F 0 "SC10" H 6108 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 6108 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 6000 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 6000 3110 50  0001 C CNN
 F 3 "~" V 6000 3110 50  0001 C CNN
 	1    6000 3050
 	1    0    0    -1  
@@ -246,7 +246,7 @@ U 1 1 5CB03E69
 P 5400 3050
 F 0 "SC9" H 5508 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 5508 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 5400 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 5400 3110 50  0001 C CNN
 F 3 "~" V 5400 3110 50  0001 C CNN
 	1    5400 3050
 	1    0    0    -1  
@@ -257,7 +257,7 @@ U 1 1 5CB03E5F
 P 4750 3050
 F 0 "SC8" H 4858 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 4858 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 4750 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 4750 3110 50  0001 C CNN
 F 3 "~" V 4750 3110 50  0001 C CNN
 	1    4750 3050
 	1    0    0    -1  
@@ -268,7 +268,7 @@ U 1 1 5CB03E55
 P 4100 3050
 F 0 "SC7" H 4208 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 4208 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 4100 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 4100 3110 50  0001 C CNN
 F 3 "~" V 4100 3110 50  0001 C CNN
 	1    4100 3050
 	1    0    0    -1  
@@ -279,7 +279,7 @@ U 1 1 5CB03E4B
 P 3450 3050
 F 0 "SC6" H 3558 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 3558 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 3450 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 3450 3110 50  0001 C CNN
 F 3 "~" V 3450 3110 50  0001 C CNN
 	1    3450 3050
 	1    0    0    -1  
@@ -290,7 +290,7 @@ U 1 1 5CB01FF1
 P 2850 3050
 F 0 "SC5" H 2958 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 2958 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 2850 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 2850 3110 50  0001 C CNN
 F 3 "~" V 2850 3110 50  0001 C CNN
 	1    2850 3050
 	1    0    0    -1  
@@ -301,7 +301,7 @@ U 1 1 5CB01FE7
 P 2200 3050
 F 0 "SC4" H 2308 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 2308 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 2200 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 2200 3110 50  0001 C CNN
 F 3 "~" V 2200 3110 50  0001 C CNN
 	1    2200 3050
 	1    0    0    -1  
@@ -312,7 +312,7 @@ U 1 1 5CB00161
 P 1550 3050
 F 0 "SC3" H 1658 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 1658 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 1550 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 1550 3110 50  0001 C CNN
 F 3 "~" V 1550 3110 50  0001 C CNN
 	1    1550 3050
 	1    0    0    -1  
@@ -323,7 +323,7 @@ U 1 1 5CB00157
 P 900 3050
 F 0 "SC2" H 1008 3146 50  0000 L CNN
 F 1 "Solar_Cell" H 1008 3055 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 900 3110 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 900 3110 50  0001 C CNN
 F 3 "~" V 900 3110 50  0001 C CNN
 	1    900  3050
 	1    0    0    -1  
@@ -871,7 +871,7 @@ U 1 1 5CB127AD
 P 7350 3450
 F 0 "SC21" H 7458 3546 50  0000 L CNN
 F 1 "Solar_Cell" H 7458 3455 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 7350 3510 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7350 3510 50  0001 C CNN
 F 3 "~" V 7350 3510 50  0001 C CNN
 	1    7350 3450
 	-1   0    0    1   
@@ -882,7 +882,7 @@ U 1 1 5CB127B7
 P 6800 3450
 F 0 "SC20" H 6908 3546 50  0000 L CNN
 F 1 "Solar_Cell" H 6908 3455 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 6800 3510 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 6800 3510 50  0001 C CNN
 F 3 "~" V 6800 3510 50  0001 C CNN
 	1    6800 3450
 	-1   0    0    1   
@@ -1113,7 +1113,7 @@ U 1 1 5CCF7B1F
 P 10500 3450
 F 0 "SC26" H 10608 3546 50  0000 L CNN
 F 1 "Solar_Cell" H 10608 3455 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 10500 3510 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 10500 3510 50  0001 C CNN
 F 3 "~" V 10500 3510 50  0001 C CNN
 	1    10500 3450
 	-1   0    0    1   
@@ -1124,7 +1124,7 @@ U 1 1 5CCF7B15
 P 9850 3450
 F 0 "SC25" H 9958 3546 50  0000 L CNN
 F 1 "Solar_Cell" H 9958 3455 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 9850 3510 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 9850 3510 50  0001 C CNN
 F 3 "~" V 9850 3510 50  0001 C CNN
 	1    9850 3450
 	-1   0    0    1   
@@ -1135,7 +1135,7 @@ U 1 1 5CCF7B0B
 P 9200 3450
 F 0 "SC24" H 9308 3546 50  0000 L CNN
 F 1 "Solar_Cell" H 9308 3455 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 9200 3510 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 9200 3510 50  0001 C CNN
 F 3 "~" V 9200 3510 50  0001 C CNN
 	1    9200 3450
 	-1   0    0    1   
@@ -1146,7 +1146,7 @@ U 1 1 5CCF7B01
 P 8550 3450
 F 0 "SC23" H 8658 3546 50  0000 L CNN
 F 1 "Solar_Cell" H 8658 3455 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 8550 3510 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 8550 3510 50  0001 C CNN
 F 3 "~" V 8550 3510 50  0001 C CNN
 	1    8550 3450
 	-1   0    0    1   
@@ -1157,7 +1157,7 @@ U 1 1 5CCF7AF7
 P 7950 3450
 F 0 "SC22" H 8058 3546 50  0000 L CNN
 F 1 "Solar_Cell" H 8058 3455 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 7950 3510 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7950 3510 50  0001 C CNN
 F 3 "~" V 7950 3510 50  0001 C CNN
 	1    7950 3450
 	-1   0    0    1   
@@ -1177,4 +1177,608 @@ Connection ~ 10650 3300
 Wire Wire Line
 	11100 3700 10650 3700
 Connection ~ 10650 3700
+$Comp
+L Device:Solar_Cell SC30
+U 1 1 5D8D1A2B
+P 1500 3450
+F 0 "SC30" H 1608 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 1608 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 1500 3510 50  0001 C CNN
+F 3 "~" V 1500 3510 50  0001 C CNN
+	1    1500 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Solar_Cell SC29
+U 1 1 5D8D1A31
+P 2150 3450
+F 0 "SC29" H 2258 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 2258 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 2150 3510 50  0001 C CNN
+F 3 "~" V 2150 3510 50  0001 C CNN
+	1    2150 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Solar_Cell SC28
+U 1 1 5D8D1A37
+P 2800 3450
+F 0 "SC28" H 2908 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 2908 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 2800 3510 50  0001 C CNN
+F 3 "~" V 2800 3510 50  0001 C CNN
+	1    2800 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Solar_Cell SC27
+U 1 1 5D8D1A3D
+P 3450 3450
+F 0 "SC27" H 3558 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 3558 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 3450 3510 50  0001 C CNN
+F 3 "~" V 3450 3510 50  0001 C CNN
+	1    3450 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D26
+U 1 1 5D8D1A43
+P 3750 3500
+F 0 "D26" V 3704 3579 50  0000 L CNN
+F 1 "D_Schottky" V 3795 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 3750 3500 50  0001 C CNN
+F 3 "~" H 3750 3500 50  0001 C CNN
+	1    3750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D27
+U 1 1 5D8D1A49
+P 3100 3500
+F 0 "D27" V 3054 3579 50  0000 L CNN
+F 1 "D_Schottky" V 3145 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 3100 3500 50  0001 C CNN
+F 3 "~" H 3100 3500 50  0001 C CNN
+	1    3100 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D28
+U 1 1 5D8D1A4F
+P 2450 3500
+F 0 "D28" V 2404 3579 50  0000 L CNN
+F 1 "D_Schottky" V 2495 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 2450 3500 50  0001 C CNN
+F 3 "~" H 2450 3500 50  0001 C CNN
+	1    2450 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D29
+U 1 1 5D8D1A55
+P 1800 3500
+F 0 "D29" V 1754 3579 50  0000 L CNN
+F 1 "D_Schottky" V 1845 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 1800 3500 50  0001 C CNN
+F 3 "~" H 1800 3500 50  0001 C CNN
+	1    1800 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 3650 3600 3650
+Wire Wire Line
+	3450 3350 3600 3350
+Wire Wire Line
+	3100 3650 2950 3650
+Wire Wire Line
+	2800 3350 2950 3350
+Wire Wire Line
+	2450 3650 2300 3650
+Wire Wire Line
+	2150 3350 2300 3350
+Wire Wire Line
+	1800 3650 1650 3650
+Wire Wire Line
+	1500 3350 1650 3350
+Wire Wire Line
+	3600 3700 2950 3700
+Wire Wire Line
+	3600 3700 3600 3650
+Connection ~ 3600 3650
+Wire Wire Line
+	3600 3650 3450 3650
+Wire Wire Line
+	3600 3350 3600 3300
+Wire Wire Line
+	3600 3300 2950 3300
+Connection ~ 3600 3350
+Wire Wire Line
+	3600 3350 3750 3350
+Wire Wire Line
+	2950 3350 2950 3300
+Connection ~ 2950 3350
+Wire Wire Line
+	2950 3350 3100 3350
+Connection ~ 2950 3300
+Wire Wire Line
+	2950 3300 2300 3300
+Wire Wire Line
+	2300 3350 2300 3300
+Connection ~ 2300 3350
+Wire Wire Line
+	2300 3350 2450 3350
+Connection ~ 2300 3300
+Wire Wire Line
+	2300 3300 1650 3300
+Wire Wire Line
+	2950 3650 2950 3700
+Connection ~ 2950 3650
+Wire Wire Line
+	2950 3650 2800 3650
+Connection ~ 2950 3700
+Wire Wire Line
+	2950 3700 2300 3700
+Wire Wire Line
+	2300 3650 2300 3700
+Connection ~ 2300 3650
+Wire Wire Line
+	2300 3650 2150 3650
+Connection ~ 2300 3700
+Wire Wire Line
+	2300 3700 1650 3700
+Wire Wire Line
+	1650 3650 1650 3700
+Connection ~ 1650 3650
+Wire Wire Line
+	1650 3650 1500 3650
+Connection ~ 1650 3700
+Wire Wire Line
+	1650 3350 1650 3300
+Connection ~ 1650 3350
+Wire Wire Line
+	1650 3350 1800 3350
+Connection ~ 1650 3300
+Wire Wire Line
+	5850 3650 5750 3650
+Wire Wire Line
+	5750 3650 5750 3700
+Wire Wire Line
+	1650 3300 1100 3300
+Connection ~ 5850 3650
+Wire Wire Line
+	5850 3350 5750 3350
+Wire Wire Line
+	5750 3350 5750 3300
+Wire Wire Line
+	1650 3700 1100 3700
+Connection ~ 5850 3350
+$Comp
+L Device:Solar_Cell SC32
+U 1 1 5D9386E5
+P 4100 3450
+F 0 "SC32" H 4208 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 4208 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 4100 3510 50  0001 C CNN
+F 3 "~" V 4100 3510 50  0001 C CNN
+	1    4100 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Solar_Cell SC33
+U 1 1 5D9386EF
+P 4750 3450
+F 0 "SC33" H 4858 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 4858 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 4750 3510 50  0001 C CNN
+F 3 "~" V 4750 3510 50  0001 C CNN
+	1    4750 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Solar_Cell SC34
+U 1 1 5D9386F9
+P 5350 3450
+F 0 "SC34" H 5458 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 5458 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 5350 3510 50  0001 C CNN
+F 3 "~" V 5350 3510 50  0001 C CNN
+	1    5350 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Solar_Cell SC35
+U 1 1 5D93870D
+P 900 4050
+F 0 "SC35" H 1008 4146 50  0000 L CNN
+F 1 "Solar_Cell" H 1008 4055 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 900 4110 50  0001 C CNN
+F 3 "~" V 900 4110 50  0001 C CNN
+	1    900  4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC31
+U 1 1 5D938717
+P 950 3450
+F 0 "SC31" H 1058 3546 50  0000 L CNN
+F 1 "Solar_Cell" H 1058 3455 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 950 3510 50  0001 C CNN
+F 3 "~" V 950 3510 50  0001 C CNN
+	1    950  3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D30
+U 1 1 5D938721
+P 1250 3500
+F 0 "D30" V 1204 3579 50  0000 L CNN
+F 1 "D_Schottky" V 1295 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 1250 3500 50  0001 C CNN
+F 3 "~" H 1250 3500 50  0001 C CNN
+	1    1250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D34
+U 1 1 5D93872B
+P 600 4000
+F 0 "D34" V 554 4079 50  0000 L CNN
+F 1 "D_Schottky" V 645 4079 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 600 4000 50  0001 C CNN
+F 3 "~" H 600 4000 50  0001 C CNN
+	1    600  4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D33
+U 1 1 5D93873F
+P 5650 3500
+F 0 "D33" V 5604 3579 50  0000 L CNN
+F 1 "D_Schottky" V 5695 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 5650 3500 50  0001 C CNN
+F 3 "~" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D32
+U 1 1 5D938749
+P 5050 3500
+F 0 "D32" V 5004 3579 50  0000 L CNN
+F 1 "D_Schottky" V 5095 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 5050 3500 50  0001 C CNN
+F 3 "~" H 5050 3500 50  0001 C CNN
+	1    5050 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D31
+U 1 1 5D938753
+P 4400 3500
+F 0 "D31" V 4354 3579 50  0000 L CNN
+F 1 "D_Schottky" V 4445 3579 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 4400 3500 50  0001 C CNN
+F 3 "~" H 4400 3500 50  0001 C CNN
+	1    4400 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 3650 1100 3650
+Wire Wire Line
+	950  3350 1100 3350
+Wire Wire Line
+	600  3850 750  3850
+Wire Wire Line
+	900  4150 750  4150
+Wire Wire Line
+	5650 3650 5500 3650
+Wire Wire Line
+	5350 3350 5500 3350
+Wire Wire Line
+	5050 3650 4900 3650
+Wire Wire Line
+	5050 3350 4900 3350
+Wire Wire Line
+	4400 3350 4250 3350
+Wire Wire Line
+	4100 3650 4250 3650
+Wire Wire Line
+	1100 3700 1100 3650
+Connection ~ 1100 3650
+Wire Wire Line
+	1100 3650 950  3650
+Wire Wire Line
+	1100 3350 1100 3300
+Connection ~ 1100 3350
+Wire Wire Line
+	1100 3350 1250 3350
+Wire Wire Line
+	750  4150 750  4200
+Connection ~ 750  4150
+Wire Wire Line
+	750  4150 600  4150
+Wire Wire Line
+	750  3850 750  3800
+Connection ~ 750  3850
+Wire Wire Line
+	750  3850 900  3850
+Wire Wire Line
+	5500 3650 5500 3700
+Connection ~ 5500 3650
+Wire Wire Line
+	5500 3650 5350 3650
+Wire Wire Line
+	5500 3700 4900 3700
+Wire Wire Line
+	5500 3350 5500 3300
+Connection ~ 5500 3350
+Wire Wire Line
+	5500 3350 5650 3350
+Wire Wire Line
+	5500 3300 4900 3300
+Wire Wire Line
+	4900 3350 4900 3300
+Connection ~ 4900 3350
+Wire Wire Line
+	4900 3350 4750 3350
+Connection ~ 4900 3300
+Wire Wire Line
+	4900 3300 4250 3300
+Wire Wire Line
+	4900 3650 4900 3700
+Connection ~ 4900 3650
+Wire Wire Line
+	4900 3650 4750 3650
+Connection ~ 4900 3700
+Wire Wire Line
+	4900 3700 4250 3700
+Wire Wire Line
+	4250 3700 4250 3650
+Connection ~ 4250 3700
+Wire Wire Line
+	4250 3700 3600 3700
+Connection ~ 4250 3650
+Wire Wire Line
+	4250 3650 4400 3650
+Wire Wire Line
+	4250 3350 4250 3300
+Connection ~ 4250 3350
+Wire Wire Line
+	4250 3350 4100 3350
+Connection ~ 4250 3300
+Wire Wire Line
+	4250 3300 3600 3300
+Connection ~ 3600 3700
+Connection ~ 3600 3300
+Wire Wire Line
+	5750 3300 5500 3300
+Connection ~ 5500 3300
+Wire Wire Line
+	5750 3700 5500 3700
+Connection ~ 5500 3700
+Wire Wire Line
+	1300 3850 1450 3850
+Wire Wire Line
+	1300 3850 1300 3800
+Wire Wire Line
+	1300 4150 1150 4150
+Wire Wire Line
+	1300 4150 1300 4200
+Connection ~ 1300 4150
+Wire Wire Line
+	1450 4150 1300 4150
+Connection ~ 1300 3850
+Wire Wire Line
+	1150 3850 1300 3850
+$Comp
+L Device:D_Schottky D35
+U 1 1 5D938735
+P 1150 4000
+F 0 "D35" V 1104 4079 50  0000 L CNN
+F 1 "D_Schottky" V 1195 4079 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 1150 4000 50  0001 C CNN
+F 3 "~" H 1150 4000 50  0001 C CNN
+	1    1150 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Solar_Cell SC36
+U 1 1 5D938703
+P 1450 4050
+F 0 "SC36" H 1558 4146 50  0000 L CNN
+F 1 "Solar_Cell" H 1558 4055 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 1450 4110 50  0001 C CNN
+F 3 "~" V 1450 4110 50  0001 C CNN
+	1    1450 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 3300
+Connection ~ 1100 3700
+Wire Wire Line
+	650  3700 650  3800
+Wire Wire Line
+	650  3800 750  3800
+Wire Wire Line
+	650  3700 1100 3700
+Wire Wire Line
+	750  3800 1300 3800
+Connection ~ 750  3800
+Wire Wire Line
+	1300 4200 750  4200
+Wire Wire Line
+	500  4200 500  3300
+Wire Wire Line
+	500  3300 1100 3300
+Wire Wire Line
+	500  4200 750  4200
+Connection ~ 750  4200
+$Comp
+L Device:Solar_Cell SC40
+U 1 1 5DBD78C2
+P 3950 4050
+F 0 "SC40" H 4058 4146 50  0000 L CNN
+F 1 "Solar_Cell" H 4058 4055 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 3950 4110 50  0001 C CNN
+F 3 "~" V 3950 4110 50  0001 C CNN
+	1    3950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC39
+U 1 1 5DBD78C8
+P 3300 4050
+F 0 "SC39" H 3408 4146 50  0000 L CNN
+F 1 "Solar_Cell" H 3408 4055 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 3300 4110 50  0001 C CNN
+F 3 "~" V 3300 4110 50  0001 C CNN
+	1    3300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC38
+U 1 1 5DBD78CE
+P 2650 4050
+F 0 "SC38" H 2758 4146 50  0000 L CNN
+F 1 "Solar_Cell" H 2758 4055 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 2650 4110 50  0001 C CNN
+F 3 "~" V 2650 4110 50  0001 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC37
+U 1 1 5DBD78D4
+P 2000 4050
+F 0 "SC37" H 2108 4146 50  0000 L CNN
+F 1 "Solar_Cell" H 2108 4055 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 2000 4110 50  0001 C CNN
+F 3 "~" V 2000 4110 50  0001 C CNN
+	1    2000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D36
+U 1 1 5DBD78DA
+P 1700 4000
+F 0 "D36" V 1654 4079 50  0000 L CNN
+F 1 "D_Schottky" V 1745 4079 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 1700 4000 50  0001 C CNN
+F 3 "~" H 1700 4000 50  0001 C CNN
+	1    1700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D37
+U 1 1 5DBD78E0
+P 2350 4000
+F 0 "D37" V 2304 4079 50  0000 L CNN
+F 1 "D_Schottky" V 2395 4079 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 2350 4000 50  0001 C CNN
+F 3 "~" H 2350 4000 50  0001 C CNN
+	1    2350 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D38
+U 1 1 5DBD78E6
+P 3000 4000
+F 0 "D38" V 2954 4079 50  0000 L CNN
+F 1 "D_Schottky" V 3045 4079 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 3000 4000 50  0001 C CNN
+F 3 "~" H 3000 4000 50  0001 C CNN
+	1    3000 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D39
+U 1 1 5DBD78EC
+P 3650 4000
+F 0 "D39" V 3604 4079 50  0000 L CNN
+F 1 "D_Schottky" V 3695 4079 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 3650 4000 50  0001 C CNN
+F 3 "~" H 3650 4000 50  0001 C CNN
+	1    3650 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 3850 1850 3850
+Wire Wire Line
+	2000 4150 1850 4150
+Wire Wire Line
+	2350 3850 2500 3850
+Wire Wire Line
+	2650 4150 2500 4150
+Wire Wire Line
+	3000 3850 3150 3850
+Wire Wire Line
+	3300 4150 3150 4150
+Wire Wire Line
+	3650 3850 3800 3850
+Wire Wire Line
+	3950 4150 3800 4150
+Wire Wire Line
+	1850 3800 2500 3800
+Wire Wire Line
+	1850 3800 1850 3850
+Connection ~ 1850 3850
+Wire Wire Line
+	1850 3850 2000 3850
+Wire Wire Line
+	1850 4150 1850 4200
+Wire Wire Line
+	1850 4200 2500 4200
+Connection ~ 1850 4150
+Wire Wire Line
+	1850 4150 1700 4150
+Wire Wire Line
+	2500 4150 2500 4200
+Connection ~ 2500 4150
+Wire Wire Line
+	2500 4150 2350 4150
+Connection ~ 2500 4200
+Wire Wire Line
+	2500 4200 3150 4200
+Wire Wire Line
+	3150 4150 3150 4200
+Connection ~ 3150 4150
+Wire Wire Line
+	3150 4150 3000 4150
+Connection ~ 3150 4200
+Wire Wire Line
+	3150 4200 3800 4200
+Wire Wire Line
+	2500 3850 2500 3800
+Connection ~ 2500 3850
+Wire Wire Line
+	2500 3850 2650 3850
+Connection ~ 2500 3800
+Wire Wire Line
+	2500 3800 3150 3800
+Wire Wire Line
+	3150 3850 3150 3800
+Connection ~ 3150 3850
+Wire Wire Line
+	3150 3850 3300 3850
+Connection ~ 3150 3800
+Wire Wire Line
+	3150 3800 3800 3800
+Wire Wire Line
+	3800 3850 3800 3800
+Connection ~ 3800 3850
+Wire Wire Line
+	3800 3850 3950 3850
+Wire Wire Line
+	3800 4150 3800 4200
+Connection ~ 3800 4150
+Wire Wire Line
+	3800 4150 3650 4150
+Wire Wire Line
+	1300 3800 1850 3800
+Connection ~ 1300 3800
+Connection ~ 1850 3800
+Wire Wire Line
+	1850 4200 1300 4200
+Connection ~ 1850 4200
+Connection ~ 1300 4200
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-15823683922677557
+15825253111978413
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42141,6 +42141,13 @@ Toshiba_CUS08F30
 2
 CySat footprints
 TriSelectSolarPanel
+
+
+0
+2
+2
+CySat footprints
+TriSelectSolarPanel_Left_Handed
 
 
 0
