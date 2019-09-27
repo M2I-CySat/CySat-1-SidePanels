@@ -121,8 +121,8 @@ F 3 "~" V 950 3310 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 3950 7650 3950
-Connection ~ 7650 3950
+	7550 3950 6900 3950
+Connection ~ 6900 3950
 Wire Wire Line
 	650  3350 800  3350
 Wire Wire Line
@@ -680,81 +680,81 @@ Wire Wire Line
 $Comp
 L Device:D_Schottky D18
 U 1 1 5CC4CFFF
-P 9950 3800
-F 0 "D18" V 9904 3879 50  0000 L CNN
-F 1 "D_Schottky" V 9995 3879 50  0000 L CNN
-F 2 "CySat footprints:Toshiba_CUS08F30" H 9950 3800 50  0001 C CNN
-F 3 "~" H 9950 3800 50  0001 C CNN
-	1    9950 3800
+P 10050 3800
+F 0 "D18" V 10004 3879 50  0000 L CNN
+F 1 "D_Schottky" V 10095 3879 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 10050 3800 50  0001 C CNN
+F 3 "~" H 10050 3800 50  0001 C CNN
+	1    10050 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Solar_Cell SC18
 U 1 1 5CC4D009
-P 9650 3750
-F 0 "SC18" H 9758 3846 50  0000 L CNN
-F 1 "Solar_Cell" H 9758 3755 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 9650 3810 50  0001 C CNN
-F 3 "~" V 9650 3810 50  0001 C CNN
-	1    9650 3750
+P 9750 3750
+F 0 "SC18" H 9858 3846 50  0000 L CNN
+F 1 "Solar_Cell" H 9858 3755 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel" V 9750 3810 50  0001 C CNN
+F 3 "~" V 9750 3810 50  0001 C CNN
+	1    9750 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9950 3650 9800 3650
+	10050 3650 9900 3650
 Wire Wire Line
-	9950 3950 9800 3950
+	10050 3950 9900 3950
 Wire Wire Line
-	9800 3950 9800 4000
-Connection ~ 9800 3950
+	9900 3950 9900 4000
+Connection ~ 9900 3950
 Wire Wire Line
-	9800 3950 9650 3950
+	9900 3950 9750 3950
 Wire Wire Line
-	9800 3650 9800 3600
-Connection ~ 9800 3650
+	9900 3650 9900 3600
+Connection ~ 9900 3650
 Wire Wire Line
-	9800 3650 9650 3650
+	9900 3650 9750 3650
 $Comp
 L Device:D_Schottky D17
 U 1 1 5CC4D01B
-P 9350 3800
-F 0 "D17" V 9304 3879 50  0000 L CNN
-F 1 "D_Schottky" V 9395 3879 50  0000 L CNN
-F 2 "CySat footprints:Toshiba_CUS08F30" H 9350 3800 50  0001 C CNN
-F 3 "~" H 9350 3800 50  0001 C CNN
-	1    9350 3800
+P 9450 3800
+F 0 "D17" V 9404 3879 50  0000 L CNN
+F 1 "D_Schottky" V 9495 3879 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 9450 3800 50  0001 C CNN
+F 3 "~" H 9450 3800 50  0001 C CNN
+	1    9450 3800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Solar_Cell SC17
 U 1 1 5CC4D025
-P 9050 3750
-F 0 "SC17" H 9158 3846 50  0000 L CNN
-F 1 "Solar_Cell" H 9158 3755 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 9050 3810 50  0001 C CNN
-F 3 "~" V 9050 3810 50  0001 C CNN
-	1    9050 3750
+P 9150 3750
+F 0 "SC17" H 9258 3846 50  0000 L CNN
+F 1 "Solar_Cell" H 9258 3755 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel" V 9150 3810 50  0001 C CNN
+F 3 "~" V 9150 3810 50  0001 C CNN
+	1    9150 3750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9350 3650 9200 3650
+	9450 3650 9300 3650
 Wire Wire Line
-	9350 3950 9200 3950
+	9450 3950 9300 3950
 Wire Wire Line
-	9200 3950 9200 4000
-Connection ~ 9200 3950
+	9300 3950 9300 4000
+Connection ~ 9300 3950
 Wire Wire Line
-	9200 3950 9050 3950
+	9300 3950 9150 3950
 Wire Wire Line
-	9200 3650 9200 3600
-Connection ~ 9200 3650
+	9300 3650 9300 3600
+Connection ~ 9300 3650
 Wire Wire Line
-	9200 3650 9050 3650
+	9300 3650 9150 3650
 Wire Wire Line
 	800  3400 1400 3400
 Wire Wire Line
 	10100 3400 10100 3600
 Wire Wire Line
-	10100 3600 9800 3600
+	10100 3600 9900 3600
 Connection ~ 1400 3400
 Wire Wire Line
 	1400 3400 2000 3400
@@ -800,18 +800,10 @@ Wire Wire Line
 Connection ~ 9800 3400
 Wire Wire Line
 	9800 3400 10100 3400
-Connection ~ 9800 3600
-Wire Wire Line
-	9800 3600 9200 3600
 Wire Wire Line
 	10200 4000 10200 3000
 Wire Wire Line
 	10200 3000 9800 3000
-Wire Wire Line
-	9200 4000 9800 4000
-Connection ~ 9800 4000
-Wire Wire Line
-	9800 4000 10200 4000
 Wire Wire Line
 	9800 3000 9200 3000
 Connection ~ 9800 3000
@@ -858,33 +850,27 @@ Connection ~ 9200 3000
 Wire Wire Line
 	9200 3000 8600 3000
 Wire Wire Line
-	9200 3600 8450 3600
-Connection ~ 9200 3600
+	7700 4000 7700 3950
 Wire Wire Line
-	9200 4000 8450 4000
+	7700 3950 7550 3950
+Connection ~ 7550 3950
+Connection ~ 7550 3650
 Wire Wire Line
-	8450 4000 8450 3950
+	7700 3650 7550 3650
 Wire Wire Line
-	8450 3950 8300 3950
-Connection ~ 9200 4000
-Connection ~ 8300 3950
-Connection ~ 8300 3650
+	7700 3600 7700 3650
+Connection ~ 6900 3650
 Wire Wire Line
-	8450 3650 8300 3650
-Wire Wire Line
-	8450 3600 8450 3650
-Connection ~ 7650 3650
-Wire Wire Line
-	7650 3650 8300 3650
+	6900 3650 7550 3650
 $Comp
 L Device:Solar_Cell SC21
 U 1 1 5CBEA911
-P 8300 3750
-F 0 "SC21" H 8408 3846 50  0000 L CNN
-F 1 "Solar_Cell" H 8408 3755 50  0000 L CNN
-F 2 "CySat footprints:Spectrolab" V 8300 3810 50  0001 C CNN
-F 3 "~" V 8300 3810 50  0001 C CNN
-	1    8300 3750
+P 7550 3750
+F 0 "SC21" H 7658 3846 50  0000 L CNN
+F 1 "Solar_Cell" H 7658 3755 50  0000 L CNN
+F 2 "CySat footprints:Spectrolab" V 7550 3810 50  0001 C CNN
+F 3 "~" V 7550 3810 50  0001 C CNN
+	1    7550 3750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -901,33 +887,131 @@ $EndComp
 $Comp
 L Device:Solar_Cell SC20
 U 1 1 5CAFE43B
-P 7650 3750
-F 0 "SC20" H 7758 3846 50  0000 L CNN
-F 1 "Solar_Cell" H 7758 3755 50  0000 L CNN
-F 2 "CySat footprints:Spectrolab" V 7650 3810 50  0001 C CNN
-F 3 "~" V 7650 3810 50  0001 C CNN
-	1    7650 3750
+P 6900 3750
+F 0 "SC20" H 7008 3846 50  0000 L CNN
+F 1 "Solar_Cell" H 7008 3755 50  0000 L CNN
+F 2 "CySat footprints:Spectrolab" V 6900 3810 50  0001 C CNN
+F 3 "~" V 6900 3810 50  0001 C CNN
+	1    6900 3750
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Solar_Cell SC19
 U 1 1 5CAFDDDE
-P 7000 3750
-F 0 "SC19" H 7108 3846 50  0000 L CNN
-F 1 "Solar_Cell" H 7108 3755 50  0000 L CNN
-F 2 "CySat footprints:Spectrolab" V 7000 3810 50  0001 C CNN
-F 3 "~" V 7000 3810 50  0001 C CNN
-	1    7000 3750
+P 6250 3750
+F 0 "SC19" H 6358 3846 50  0000 L CNN
+F 1 "Solar_Cell" H 6358 3755 50  0000 L CNN
+F 2 "CySat footprints:Spectrolab" V 6250 3810 50  0001 C CNN
+F 3 "~" V 6250 3810 50  0001 C CNN
+	1    6250 3750
 	-1   0    0    1   
 $EndComp
 Connection ~ 7600 3000
 Wire Wire Line
 	7600 3000 7400 3000
 Wire Wire Line
-	7000 3650 7650 3650
+	6250 3650 6900 3650
 Connection ~ 7650 3400
 Wire Wire Line
 	7650 3400 8000 3400
 Wire Wire Line
-	7000 3950 7650 3950
+	6250 3950 6900 3950
+Connection ~ 9300 3600
+Connection ~ 9300 4000
+Connection ~ 9900 3600
+Connection ~ 9900 4000
+Wire Wire Line
+	9900 4000 10200 4000
+Wire Wire Line
+	9300 3600 9900 3600
+Wire Wire Line
+	9300 4000 9900 4000
+$Comp
+L Device:D_Schottky D21
+U 1 1 5D911955
+P 8850 3800
+F 0 "D21" V 8804 3879 50  0000 L CNN
+F 1 "D_Schottky" V 8895 3879 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 8850 3800 50  0001 C CNN
+F 3 "~" H 8850 3800 50  0001 C CNN
+	1    8850 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Solar_Cell SC23
+U 1 1 5D91195F
+P 8550 3750
+F 0 "SC23" H 8658 3846 50  0000 L CNN
+F 1 "Solar_Cell" H 8658 3755 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 8550 3810 50  0001 C CNN
+F 3 "~" V 8550 3810 50  0001 C CNN
+	1    8550 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 3650 8700 3650
+Wire Wire Line
+	8850 3950 8700 3950
+Wire Wire Line
+	8700 3950 8700 4000
+Connection ~ 8700 3950
+Wire Wire Line
+	8700 3950 8550 3950
+Wire Wire Line
+	8700 3650 8700 3600
+Connection ~ 8700 3650
+Wire Wire Line
+	8700 3650 8550 3650
+$Comp
+L Device:D_Schottky D20
+U 1 1 5D911971
+P 8250 3800
+F 0 "D20" V 8204 3879 50  0000 L CNN
+F 1 "D_Schottky" V 8295 3879 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 8250 3800 50  0001 C CNN
+F 3 "~" H 8250 3800 50  0001 C CNN
+	1    8250 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Solar_Cell SC22
+U 1 1 5D91197B
+P 7950 3750
+F 0 "SC22" H 8058 3846 50  0000 L CNN
+F 1 "Solar_Cell" H 8058 3755 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7950 3810 50  0001 C CNN
+F 3 "~" V 7950 3810 50  0001 C CNN
+	1    7950 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 3650 8100 3650
+Wire Wire Line
+	8250 3950 8100 3950
+Wire Wire Line
+	8100 3950 8100 4000
+Connection ~ 8100 3950
+Wire Wire Line
+	8100 3950 7950 3950
+Wire Wire Line
+	8100 3650 8100 3600
+Connection ~ 8100 3650
+Wire Wire Line
+	8100 3650 7950 3650
+Connection ~ 8700 3600
+Wire Wire Line
+	8700 3600 9300 3600
+Connection ~ 8700 4000
+Wire Wire Line
+	8700 4000 9300 4000
+Wire Wire Line
+	7700 3600 8100 3600
+Connection ~ 8100 3600
+Wire Wire Line
+	8100 3600 8700 3600
+Wire Wire Line
+	7700 4000 8100 4000
+Connection ~ 8100 4000
+Wire Wire Line
+	8100 4000 8700 4000
 $EndSCHEMATC
