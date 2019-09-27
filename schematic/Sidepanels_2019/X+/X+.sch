@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:X+-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -63,7 +64,7 @@ U 1 1 5CA8F983
 P 6200 2350
 F 0 "SC10" H 6308 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 6308 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 6200 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 6200 2410 50  0001 C CNN
 F 3 "~" V 6200 2410 50  0001 C CNN
 	1    6200 2350
 	1    0    0    -1  
@@ -74,7 +75,7 @@ U 1 1 5CA8F98D
 P 5350 2350
 F 0 "SC9" H 5458 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 5458 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 5350 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 5350 2410 50  0001 C CNN
 F 3 "~" V 5350 2410 50  0001 C CNN
 	1    5350 2350
 	1    0    0    -1  
@@ -85,7 +86,7 @@ U 1 1 5CA92717
 P 7900 2350
 F 0 "SC12" H 8008 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 8008 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 7900 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7900 2410 50  0001 C CNN
 F 3 "~" V 7900 2410 50  0001 C CNN
 	1    7900 2350
 	1    0    0    -1  
@@ -96,7 +97,7 @@ U 1 1 5CA953E5
 P 8600 2350
 F 0 "SC13" H 8708 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 8708 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 8600 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 8600 2410 50  0001 C CNN
 F 3 "~" V 8600 2410 50  0001 C CNN
 	1    8600 2350
 	1    0    0    -1  
@@ -107,7 +108,7 @@ U 1 1 5CA953EF
 P 10700 2350
 F 0 "SC16" H 10808 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 10808 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 10700 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 10700 2410 50  0001 C CNN
 F 3 "~" V 10700 2410 50  0001 C CNN
 	1    10700 2350
 	1    0    0    -1  
@@ -118,7 +119,7 @@ U 1 1 5CAADF7F
 P 3000 2350
 F 0 "SC6" H 3108 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 3108 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 3000 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 3000 2410 50  0001 C CNN
 F 3 "~" V 3000 2410 50  0001 C CNN
 	1    3000 2350
 	1    0    0    -1  
@@ -129,7 +130,7 @@ U 1 1 5CAADF89
 P 2350 2350
 F 0 "SC5" H 2458 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 2458 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 2350 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 2350 2410 50  0001 C CNN
 F 3 "~" V 2350 2410 50  0001 C CNN
 	1    2350 2350
 	1    0    0    -1  
@@ -140,7 +141,7 @@ U 1 1 5CAADF9D
 P 3650 2350
 F 0 "SC7" H 3758 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 3758 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 3650 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 3650 2410 50  0001 C CNN
 F 3 "~" V 3650 2410 50  0001 C CNN
 	1    3650 2350
 	1    0    0    -1  
@@ -236,7 +237,7 @@ U 1 1 5CAADF93
 P 4500 2350
 F 0 "SC8" H 4608 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 4608 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 4500 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 4500 2410 50  0001 C CNN
 F 3 "~" V 4500 2410 50  0001 C CNN
 	1    4500 2350
 	1    0    0    -1  
@@ -247,7 +248,7 @@ U 1 1 5CA92721
 P 7050 2350
 F 0 "SC11" H 7158 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 7158 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 7050 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7050 2410 50  0001 C CNN
 F 3 "~" V 7050 2410 50  0001 C CNN
 	1    7050 2350
 	1    0    0    -1  
@@ -258,7 +259,7 @@ U 1 1 5CA953F9
 P 10000 2350
 F 0 "SC15" H 10108 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 10108 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 10000 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 10000 2410 50  0001 C CNN
 F 3 "~" V 10000 2410 50  0001 C CNN
 	1    10000 2350
 	1    0    0    -1  
@@ -269,7 +270,7 @@ U 1 1 5CA953DB
 P 9300 2350
 F 0 "SC14" H 9408 2446 50  0000 L CNN
 F 1 "Solar_Cell" H 9408 2355 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel" V 9300 2410 50  0001 C CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 9300 2410 50  0001 C CNN
 F 3 "~" V 9300 2410 50  0001 C CNN
 	1    9300 2350
 	1    0    0    -1  
@@ -756,4 +757,54 @@ $EndComp
 Connection ~ 4800 1550
 Wire Wire Line
 	4800 1550 4200 1550
+$Comp
+L Device:Solar_Cell SC17
+U 1 1 5D90DC3A
+P 9700 2750
+F 0 "SC17" H 9808 2846 50  0000 L CNN
+F 1 "Solar_Cell" H 9808 2755 50  0000 L CNN
+F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 9700 2810 50  0001 C CNN
+F 3 "~" V 9700 2810 50  0001 C CNN
+	1    9700 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky D16
+U 1 1 5D90DC44
+P 10000 2800
+F 0 "D16" V 9954 2879 50  0000 L CNN
+F 1 "D_Schottky" V 10045 2879 50  0000 L CNN
+F 2 "CySat footprints:Toshiba_CUS08F30" H 10000 2800 50  0001 C CNN
+F 3 "~" H 10000 2800 50  0001 C CNN
+	1    10000 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 2950 9850 2950
+Wire Wire Line
+	9700 2650 9850 2650
+Wire Wire Line
+	9850 3000 9850 2950
+Connection ~ 9850 2950
+Wire Wire Line
+	9850 2950 9700 2950
+Wire Wire Line
+	9850 2650 9850 2600
+Connection ~ 9850 2650
+Wire Wire Line
+	9850 2650 10000 2650
+Wire Wire Line
+	10650 2600 10650 2500
+Wire Wire Line
+	10650 2500 10550 2500
+Wire Wire Line
+	9850 2600 10650 2600
+Connection ~ 10550 2500
+Wire Wire Line
+	10900 3000 10900 2100
+Wire Wire Line
+	10900 2100 10550 2100
+Wire Wire Line
+	9850 3000 10900 3000
+Connection ~ 10550 2100
 $EndSCHEMATC
