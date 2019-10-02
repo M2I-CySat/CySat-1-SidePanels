@@ -917,7 +917,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 3950 6900 3950
 Connection ~ 9300 3600
-Connection ~ 9300 4000
 Connection ~ 9900 3600
 Connection ~ 9900 4000
 Wire Wire Line
@@ -926,92 +925,9 @@ Wire Wire Line
 	9300 3600 9900 3600
 Wire Wire Line
 	9300 4000 9900 4000
-$Comp
-L Device:D_Schottky D21
-U 1 1 5D911955
-P 8850 3800
-F 0 "D21" V 8804 3879 50  0000 L CNN
-F 1 "D_Schottky" V 8895 3879 50  0000 L CNN
-F 2 "CySat footprints:Toshiba_CUS08F30" H 8850 3800 50  0001 C CNN
-F 3 "~" H 8850 3800 50  0001 C CNN
-	1    8850 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Solar_Cell SC23
-U 1 1 5D91195F
-P 8550 3750
-F 0 "SC23" H 8658 3846 50  0000 L CNN
-F 1 "Solar_Cell" H 8658 3755 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 8550 3810 50  0001 C CNN
-F 3 "~" V 8550 3810 50  0001 C CNN
-	1    8550 3750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	8850 3650 8700 3650
+	7700 3600 9300 3600
 Wire Wire Line
-	8850 3950 8700 3950
-Wire Wire Line
-	8700 3950 8700 4000
-Connection ~ 8700 3950
-Wire Wire Line
-	8700 3950 8550 3950
-Wire Wire Line
-	8700 3650 8700 3600
-Connection ~ 8700 3650
-Wire Wire Line
-	8700 3650 8550 3650
-$Comp
-L Device:D_Schottky D20
-U 1 1 5D911971
-P 8250 3800
-F 0 "D20" V 8204 3879 50  0000 L CNN
-F 1 "D_Schottky" V 8295 3879 50  0000 L CNN
-F 2 "CySat footprints:Toshiba_CUS08F30" H 8250 3800 50  0001 C CNN
-F 3 "~" H 8250 3800 50  0001 C CNN
-	1    8250 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Solar_Cell SC22
-U 1 1 5D91197B
-P 7950 3750
-F 0 "SC22" H 8058 3846 50  0000 L CNN
-F 1 "Solar_Cell" H 8058 3755 50  0000 L CNN
-F 2 "CySat footprints:TriSelectSolarPanel_Left_Handed" V 7950 3810 50  0001 C CNN
-F 3 "~" V 7950 3810 50  0001 C CNN
-	1    7950 3750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8250 3650 8100 3650
-Wire Wire Line
-	8250 3950 8100 3950
-Wire Wire Line
-	8100 3950 8100 4000
-Connection ~ 8100 3950
-Wire Wire Line
-	8100 3950 7950 3950
-Wire Wire Line
-	8100 3650 8100 3600
-Connection ~ 8100 3650
-Wire Wire Line
-	8100 3650 7950 3650
-Connection ~ 8700 3600
-Wire Wire Line
-	8700 3600 9300 3600
-Connection ~ 8700 4000
-Wire Wire Line
-	8700 4000 9300 4000
-Wire Wire Line
-	7700 3600 8100 3600
-Connection ~ 8100 3600
-Wire Wire Line
-	8100 3600 8700 3600
-Wire Wire Line
-	7700 4000 8100 4000
-Connection ~ 8100 4000
-Wire Wire Line
-	8100 4000 8700 4000
+	9300 4000 7700 4000
+Connection ~ 9300 4000
 $EndSCHEMATC
