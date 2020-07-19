@@ -207,28 +207,6 @@ F 3 "~" V 7350 4010 50  0001 C CNN
 	1    7350 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Solar_Cell SC8
-U 1 1 5F049DA2
-P 8000 3950
-F 0 "SC8" H 8108 4046 50  0000 L CNN
-F 1 "Solar_Cell" H 8108 3955 50  0000 L CNN
-F 2 "CySat_Solar:Spectrolab" V 8000 4010 50  0001 C CNN
-F 3 "~" V 8000 4010 50  0001 C CNN
-	1    8000 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Solar_Cell SC9
-U 1 1 5F04A84B
-P 8650 3950
-F 0 "SC9" H 8758 4046 50  0000 L CNN
-F 1 "Solar_Cell" H 8758 3955 50  0000 L CNN
-F 2 "CySat_Solar:Spectrolab" V 8650 4010 50  0001 C CNN
-F 3 "~" V 8650 4010 50  0001 C CNN
-	1    8650 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 3750 4750 3700
 Connection ~ 4750 3700
@@ -271,28 +249,8 @@ Wire Wire Line
 	6750 4100 7350 4100
 Wire Wire Line
 	7350 3750 7350 3700
-Connection ~ 7350 3700
-Wire Wire Line
-	7350 3700 8000 3700
 Wire Wire Line
 	7350 4050 7350 4100
-Connection ~ 7350 4100
-Wire Wire Line
-	7350 4100 8000 4100
-Wire Wire Line
-	8000 3750 8000 3700
-Connection ~ 8000 3700
-Wire Wire Line
-	8000 3700 8650 3700
-Wire Wire Line
-	8000 4050 8000 4100
-Connection ~ 8000 4100
-Wire Wire Line
-	8000 4100 8650 4100
-Wire Wire Line
-	8650 3750 8650 3700
-Wire Wire Line
-	8650 4050 8650 4100
 Wire Wire Line
 	3800 2950 3900 2950
 Connection ~ 3800 2950
