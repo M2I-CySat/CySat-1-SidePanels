@@ -69,7 +69,7 @@ U 1 1 5CC5A3C1
 P 2600 4900
 F 0 "D1" V 2504 5057 50  0000 L CNN
 F 1 "D_Photo" V 2595 5057 50  0000 L CNN
-F 2 "CySat footprints:Sun_Sensor" H 2550 4900 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2550 4900 50  0001 C CNN
 F 3 "~" H 2550 4900 50  0001 C CNN
 	1    2600 4900
 	0    1    1    0   
@@ -164,7 +164,7 @@ Wire Wire Line
 	2650 3250 3100 3250
 Connection ~ 2650 3250
 Wire Wire Line
-	3100 3250 3600 3250
+	3100 3250 3350 3250
 Connection ~ 3100 3250
 Connection ~ 3600 3250
 Wire Wire Line
@@ -173,11 +173,39 @@ Connection ~ 4250 3250
 Wire Wire Line
 	2650 3550 3100 3550
 Connection ~ 2650 3550
-Wire Wire Line
-	3100 3550 3600 3550
 Connection ~ 3100 3550
 Connection ~ 3600 3550
 Wire Wire Line
 	4250 3550 4700 3550
 Connection ~ 4250 3550
+$Comp
+L power:VSS #PWR?
+U 1 1 5F17F317
+P 3350 3550
+F 0 "#PWR?" H 3350 3400 50  0001 C CNN
+F 1 "VSS" H 3365 3723 50  0000 C CNN
+F 2 "" H 3350 3550 50  0001 C CNN
+F 3 "" H 3350 3550 50  0001 C CNN
+	1    3350 3550
+	-1   0    0    1   
+$EndComp
+Connection ~ 3350 3550
+Wire Wire Line
+	3350 3550 3600 3550
+Wire Wire Line
+	3100 3550 3350 3550
+$Comp
+L power:VCC #PWR?
+U 1 1 5F18055D
+P 3350 3250
+F 0 "#PWR?" H 3350 3100 50  0001 C CNN
+F 1 "VCC" H 3365 3423 50  0000 C CNN
+F 2 "" H 3350 3250 50  0001 C CNN
+F 3 "" H 3350 3250 50  0001 C CNN
+	1    3350 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 3250
+Wire Wire Line
+	3350 3250 3600 3250
 $EndSCHEMATC
