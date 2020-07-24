@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 50)
+    (drawings 53)
     (tracks 42)
     (zones 0)
     (modules 7)
@@ -431,6 +431,15 @@
     )
   )
 
+  (gr_text "CySat Panel Y+" (at 444.5 226.06 270) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "I figure if a farmer’s daughter from Iowa can become an astronaut, \nyou can be just about anything you want to be.  \n- Peggy Whitson" (at 201.295 194.31) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CySat-1\nMake to Innovate\nIowa State University" (at 136.525 195.58) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_circle (center 162.71 220) (end 162.66 219.5) (layer B.SilkS) (width 0.12))
   (gr_circle (center 162.71 220) (end 162.71 219.95) (layer B.SilkS) (width 0.12))
   (gr_line (start 436.76 255.9) (end 436.76 197.7) (layer Edge.Cuts) (width 0.05) (tstamp 5CAF6B49))
