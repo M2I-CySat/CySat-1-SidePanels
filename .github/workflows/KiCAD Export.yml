@@ -1,0 +1,46 @@
+# This is a basic workflow to help you get started with Actions
+
+name: KiCAD Workflow
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      
+      - name: kicad-exports
+      # You may pin to the exact commit or the version.
+      # uses: nerdyscout/kicad-exports@ec8d157c7a3dd7818f0dff97e23ba5267f49fa18
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+      # The plotting config file to use
+          config: gerbers.kibot.yaml
+      # The output directory [default: .]
+          dir: gerber # optional, default is .
+      # The PCB .kicad-pcb board file [default: first *.kicad_pcb found]
+          board: '*.kicad_pcb' # optional
+      # The schematic file (.sch) [default: first *.sch found]
+          schema: '*.sch' # optional
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      
