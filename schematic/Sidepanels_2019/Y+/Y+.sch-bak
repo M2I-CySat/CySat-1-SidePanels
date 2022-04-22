@@ -1,0 +1,177 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Cysat Solar Panel Board Y+"
+Date "2020-07-21"
+Rev "3"
+Comp "Iowa State University"
+Comment1 "Matthew E Nelson"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5CABAE1D
+P 1050 1550
+F 0 "J1" H 968 1125 50  0000 C CNN
+F 1 "Conn_01x04" H 968 1216 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 1050 1550 50  0001 C CNN
+F 3 "~" H 1050 1550 50  0001 C CNN
+	1    1050 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VSS #PWR02
+U 1 1 5CABC9D1
+P 1250 1650
+F 0 "#PWR02" H 1250 1500 50  0001 C CNN
+F 1 "VSS" V 1267 1778 50  0000 L CNN
+F 2 "" H 1250 1650 50  0001 C CNN
+F 3 "" H 1250 1650 50  0001 C CNN
+	1    1250 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 1550 1250 1650
+Connection ~ 1250 1650
+$Comp
+L power:VCC #PWR01
+U 1 1 5CABDB89
+P 1250 1350
+F 0 "#PWR01" H 1250 1200 50  0001 C CNN
+F 1 "VCC" V 1267 1478 50  0000 L CNN
+F 2 "" H 1250 1350 50  0001 C CNN
+F 3 "" H 1250 1350 50  0001 C CNN
+	1    1250 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 1450 1250 1350
+Connection ~ 1250 1350
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5CAF553F
+P 1700 4350
+F 0 "J2" H 1618 4025 50  0000 C CNN
+F 1 "Conn_01x02" H 1618 4116 50  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0271_1x02-1MP_P1.25mm_Vertical" H 1700 4350 50  0001 C CNN
+F 3 "~" H 1700 4350 50  0001 C CNN
+	1    1700 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Photo D19
+U 1 1 5CC5A3C1
+P 2350 4350
+F 0 "D19" V 2254 4507 50  0000 L CNN
+F 1 "D_Photo" V 2345 4507 50  0000 L CNN
+F 2 "CySat footprints:Sun_Sensor" H 2300 4350 50  0001 C CNN
+F 3 "~" H 2300 4350 50  0001 C CNN
+	1    2350 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 4250 2250 4250
+Wire Wire Line
+	2250 4250 2250 4150
+Wire Wire Line
+	2250 4150 2350 4150
+Wire Wire Line
+	2350 4450 2250 4450
+Wire Wire Line
+	2250 4450 2250 4350
+Wire Wire Line
+	2250 4350 1900 4350
+$Comp
+L Device:Solar_Cell SC21
+U 1 1 5CBEA911
+P 5600 3550
+F 0 "SC21" H 5708 3646 50  0000 L CNN
+F 1 "Solar_Cell" H 5708 3555 50  0000 L CNN
+F 2 "CySat footprints:Spectrolab" V 5600 3610 50  0001 C CNN
+F 3 "~" V 5600 3610 50  0001 C CNN
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC20
+U 1 1 5CAFE43B
+P 4950 3550
+F 0 "SC20" H 5058 3646 50  0000 L CNN
+F 1 "Solar_Cell" H 5058 3555 50  0000 L CNN
+F 2 "CySat footprints:Spectrolab" V 4950 3610 50  0001 C CNN
+F 3 "~" V 4950 3610 50  0001 C CNN
+	1    4950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Solar_Cell SC19
+U 1 1 5CAFDDDE
+P 4300 3550
+F 0 "SC19" H 4408 3646 50  0000 L CNN
+F 1 "Solar_Cell" H 4408 3555 50  0000 L CNN
+F 2 "CySat footprints:Spectrolab" V 4300 3610 50  0001 C CNN
+F 3 "~" V 4300 3610 50  0001 C CNN
+	1    4300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3650 4950 3650
+Wire Wire Line
+	4300 3350 4950 3350
+Connection ~ 4950 3350
+Connection ~ 4950 3650
+Wire Wire Line
+	4950 3650 5300 3650
+Wire Wire Line
+	4950 3350 5300 3350
+Connection ~ 5600 3350
+Connection ~ 5600 3650
+$Comp
+L Device:Solar_Cell SC?
+U 1 1 5F1A89C2
+P 6150 3550
+F 0 "SC?" H 6258 3646 50  0000 L CNN
+F 1 "Solar_Cell" H 6258 3555 50  0000 L CNN
+F 2 "CySat footprints:Spectrolab" V 6150 3610 50  0001 C CNN
+F 3 "~" V 6150 3610 50  0001 C CNN
+	1    6150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3350 6150 3350
+Wire Wire Line
+	5600 3650 6150 3650
+$Comp
+L power:VSS #PWR?
+U 1 1 5F1AA94C
+P 5300 3650
+F 0 "#PWR?" H 5300 3500 50  0001 C CNN
+F 1 "VSS" H 5315 3823 50  0000 C CNN
+F 2 "" H 5300 3650 50  0001 C CNN
+F 3 "" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	-1   0    0    1   
+$EndComp
+Connection ~ 5300 3650
+Wire Wire Line
+	5300 3650 5600 3650
+$Comp
+L power:VCC #PWR?
+U 1 1 5F1AB47A
+P 5300 3350
+F 0 "#PWR?" H 5300 3200 50  0001 C CNN
+F 1 "VCC" H 5315 3523 50  0000 C CNN
+F 2 "" H 5300 3350 50  0001 C CNN
+F 3 "" H 5300 3350 50  0001 C CNN
+	1    5300 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3350
+Wire Wire Line
+	5300 3350 5600 3350
+$EndSCHEMATC
