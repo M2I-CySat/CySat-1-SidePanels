@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "CySat_Solar")(type "KiCad")(uri "/Users/matgyver/GitHub/CySat-SidePanels/schematic/library/CySat.pretty")(options "")(descr ""))
+)
